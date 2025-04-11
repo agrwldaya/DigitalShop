@@ -19,7 +19,7 @@ export default function DashboardLayout({ children }) {
       fetchProfile(token);
       fetchProducts(token)
     }
-  }, [token]);
+  }, [token,fetchProfile,fetchProducts  ]);
 
   return (
     <div className="flex flex-col min-h-screen w-full">
