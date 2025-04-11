@@ -1,4 +1,6 @@
 'use client';
+/* eslint-disable react/no-unescaped-entities */
+
 
 import { Toaster } from '@/components/ui/sonner';
 import { getShopkeeperFromToken } from '@/lib/auth';
