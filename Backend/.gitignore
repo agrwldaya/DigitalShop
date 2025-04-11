@@ -1,0 +1,58 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+logs/
+*.log.*
+*.out
+*.pid
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build directories
+dist/
+build/
+out/
+temp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Debugging/Temporary Files
+*.bak
+*.tmp
+*.old
+
+# Images and generated files
+*.generated.*
+
+# MacOS finder files
+*.DS_Store
+
+# Python Cache
+_pycache_*
+
+# others
+coverage/*
+logs/
+db_credentials
+backend.*
