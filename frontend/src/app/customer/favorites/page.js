@@ -184,7 +184,7 @@ export default function FavoritesPage() {
                 </div>
                 <h3 className="text-xl font-medium mb-2">No saved shops</h3>
                 <p className="text-gray-500 mb-6">
-                  You haven't saved any shops yet. Browse shops and click the heart icon to add them to your favorites.
+                  You have not saved any shops yet. Browse shops and click the heart icon to add them to your favorites.
                 </p>
                 <Link href="/customer">
                   <Button className="bg-orange-600 hover:bg-orange-700">Browse Shops</Button>
@@ -278,7 +278,7 @@ export default function FavoritesPage() {
                 </div>
                 <h3 className="text-xl font-medium mb-2">No saved products</h3>
                 <p className="text-gray-500 mb-6">
-                  You haven't saved any products yet. Browse products and click the heart icon to add them to your
+                  You have not saved any products yet. Browse products and click the heart icon to add them to your
                   favorites.
                 </p>
                 <Link href="/customer">

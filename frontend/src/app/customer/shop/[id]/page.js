@@ -147,7 +147,7 @@ export default function ShopDetailPage({ params }) {
         <CustomerNavbar />
         <div className="container mx-auto px-4 py-12 text-center">
           <h2 className="text-2xl font-bold mb-4">Shop not found</h2>
-          <p className="mb-6">The shop you're looking for doesn't exist or has been removed.</p>
+          <p className="mb-6">The shop you are looking for does not exist or has been removed.</p>
           <Button onClick={() => router.push("/customer")} className="bg-orange-600 hover:bg-orange-700">
             Back to Shops
           </Button>

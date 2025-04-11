@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable react/no-unescaped-entities */
 
 import { useState } from "react";
 import {Package, ShoppingBag, Clock, BarChart3, PlusCircle, Calendar, Badge } from "lucide-react";
@@ -25,7 +26,7 @@ export default function Dashboard() {
     <div className="min-h-screen w-full">
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-gray-800">Welcome back,{shopprofile.ownerName}  Ji!</h1>
-        <p className="text-gray-600">Here's what's happening with your shop today.</p>
+        <p className="text-gray-600">Here is what is happening with your shop today.</p>
       </div>
          <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8">
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
@@ -41,7 +42,7 @@ export default function Dashboard() {
             </Card>
             <Card className="border-l-4 border-l-green-500">
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                <CardTitle className="text-sm font-medium">Today's Orders</CardTitle>
+                <CardTitle className="text-sm font-medium"><p>Today's Orders</p></CardTitle>
                 <ShoppingBag className="h-4 w-4 text-muted-foreground" />
               </CardHeader>
               <CardContent>

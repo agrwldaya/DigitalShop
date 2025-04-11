@@ -193,7 +193,7 @@ export default function NotificationsPage() {
                 </div>
                 <h3 className="text-xl font-medium mb-2">No notifications</h3>
                 <p className="text-gray-500">
-                  You don't have any notifications at the moment. We'll notify you when there are updates.
+                  You do not have any notifications at the moment. We will notify you when there are updates.
                 </p>
               </div>
             )}
@@ -262,7 +262,7 @@ export default function NotificationsPage() {
                   <Bell className="h-10 w-10 text-gray-300" />
                 </div>
                 <h3 className="text-xl font-medium mb-2">No unread notifications</h3>
-                <p className="text-gray-500">You've read all your notifications. Check back later for updates.</p>
+                <p className="text-gray-500">You have read all your notifications. Check back later for updates.</p>
               </div>
             )}
           </TabsContent>

@@ -81,7 +81,7 @@ export default function SettingsPage() {
               <Card>
                 <CardHeader>
                   <CardTitle>Business Hours</CardTitle>
-                  <CardDescription>Set your shop's operating hours</CardDescription>
+                  <CardDescription>Set your shops operating hours</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4">
